@@ -10,39 +10,52 @@
 
     <nav>
         <ul>
-            <li><a href='https://akademia108.pl/'>About us</a></li>
-            <li><a href='https://akademia108.pl/'>Skills</a></li>
-            <li><a href='https://akademia108.pl/'>Portfolio</a></li>
-            <li><a href='https://akademia108.pl/'>Contact</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     
-    <section>
-        <h2>About us</h2>
+    <section id="about">
+        <h1>About us</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eum dolores adipisci error eos est temporibus facere tenetur libero provident autem assumenda commodi obcaecati, ab voluptates minima maiores quaerat tempora! </p>
     </section><br>
 
-    <section>
+    <section id="skills">
         <h2>Skills</h2>
-        <div class="skill"><h3>Nagłówek 1</h3></div>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, magni? Laudantium voluptatibus ducimus tempora consectetur expedita fugiat repellat numquam inventore eligendi, voluptatum itaque temporibus omnis consequatur maiores ratione. Nobis, voluptate!</p>
-        <div class="skill"><h3>Nagłówek 2</h3></div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic dolor at enim? Ipsa suscipit optio ratione eaque facilis. Consectetur incidunt porro provident praesentium architecto maiores inventore excepturi ut ratione minima!</p>
-        <div class="skill"><h3>Nagłówek 3</h3></h4></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui recusandae molestiae deserunt. Alias, iusto ad quo beatae ea molestiae a vero vitae, reiciendis nihil consequatur harum eveniet perspiciatis. Quam, odio?</p>
-        <div class="skill"><h3>Nagłówek 4</h3></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores debitis nihil tenetur quibusdam consequatur cumque dolores quaerat aut earum, at et dolorem accusamus fugiat voluptatibus beatae nemo, iste impedit?</p>
+
+        <div class="skill">
+            <h3>Nagłówek 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, magni? Laudantium voluptatibus ducimus tempora consectetur expedita fugiat repellat numquam inventore eligendi, voluptatum itaque temporibus omnis consequatur maiores ratione. Nobis, voluptate!</p>
+        </div>
+    
+        <div class="skill">
+            <h3>Nagłówek 2</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic dolor at enim? Ipsa suscipit optio ratione eaque facilis. Consectetur incidunt porro provident praesentium architecto maiores inventore excepturi ut ratione minima!</p>
+        </div>
+
+        <div class="skill">
+            <h3>Nagłówek 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui recusandae molestiae deserunt. Alias, iusto ad quo beatae ea molestiae a vero vitae, reiciendis nihil consequatur harum eveniet perspiciatis. Quam, odio?</p>
+        </div>
+        
+        <div class="skill">
+            <h3>Nagłówek 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores debitis nihil tenetur quibusdam consequatur cumque dolores quaerat aut earum, at et dolorem accusamus fugiat voluptatibus beatae nemo, iste impedit?</p>
+        </div>
+        
     </section><br>
 
-    <section>
+    <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="portfolio-item"><img src="lovecoding.jpg" width="400" height="306" alt="Love coding" /></div>
         <div class="portfolio-item"><img src="lovecoding.jpg" width="400" height="306" alt="Love coding" /></div>
         <div class="portfolio-item"><img src="lovecoding.jpg" width="400" height="306" alt="Love coding" /></div>
     </section><br><br>
 
-    <section>
-        <h3>Małgorzata Skwarczyńska</h3>
+    <section id="contact">
+        <h2>Małgorzata Skwarczyńska</h2>
         <a href="mailto:malgorzataskwarczynska1@gmail.com">Malgorzataskwarczynska1@gmail.com</a>
         <form action="/action_page.php">
             <label for="fname">Imię:</label><br>
@@ -50,7 +63,7 @@
             <label for="lname">Temat:</label><br>
             <input type="text" id="lname" name="lname" value=""><br>
             <label for="fname">Wiadomość:</label><br>
-            <textarea name="message" rows="10" cols="30" input id="lname" name="lname"></textarea><br>
+            <textarea name="message" rows="10" cols="30" input id="message" name="message"></textarea><br>
             <br><br>
             <input type="submit" value="Wyślij">
           </form>
